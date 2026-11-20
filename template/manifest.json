@@ -1,0 +1,11 @@
+{
+  "name": "Marauder for the XYZ Board",
+  "author": "your-handle",
+  "chip": "ESP32-C5",
+  "boards": ["XYZ Board v2"],
+  "version": "1.0.0",
+  "description": "What it does on these boards, in one or two sentences.",
+  "notes": "Optional: anything people should know before flashing. Delete this line if there's nothing.",
+  "source": "https://github.com/your-handle/your-firmware",
+  "license": "MIT"
+}
