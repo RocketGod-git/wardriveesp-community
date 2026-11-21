@@ -1,0 +1,11 @@
+{
+  "name": "WardriveESP for the LilyGO T-Dongle C5",
+  "author": "Aediliss",
+  "chip": "ESP32-C5",
+  "boards": ["LilyGO T-Dongle C5"],
+  "version": "1.7.11-tdongle.1",
+  "description": "WardriveESP 1.7.11 with the T-Dongle C5's screen, LED and button: a dashboard on the 0.96\" display, the LED lighting up for Wardrive Go alerts, and BOOT for pages and stealth.",
+  "notes": "If the flasher can't connect, hold BOOT while plugging it in. Rev 1.0: full-chip erase can drop USB; use esptool with --before no-reset and without --erase-all instead of the web flasher. Wardrive Go firmware updates install stock WardriveESP, leaving the screen and LED unused.",
+  "source": "https://github.com/Aediliss/wardriveesp-tdongle-c5",
+  "license": "MIT"
+}
