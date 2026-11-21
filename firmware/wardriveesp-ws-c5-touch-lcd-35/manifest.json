@@ -1,0 +1,11 @@
+{
+  "name": "WardriveESP for the Waveshare ESP32-C5-Touch-LCD-3.5",
+  "author": "slickrick773",
+  "chip": "ESP32-C5",
+  "boards": ["Waveshare ESP32-C5-Touch-LCD-3.5"],
+  "version": "1.7.11-ws1",
+  "description": "WardriveESP 1.7.11 with this board's 320x480 touch screen, microSD slot, battery reading and GPS. Links to Wardrive Go like any WardriveESP board and saves runs to the card when no app is linked. Swipe for pages, hold the screen to go dark.",
+  "notes": "GPS needs an LC76G module on the header's I2C pins (SDA 27, SCL 26); without one, runs are not saved to the card. Free memory runs low while Bluetooth starts. An update from the app to stock WardriveESP would remove this board's support.",
+  "source": "https://github.com/slickrick773/wardriveesp-ws-c5",
+  "license": "MIT"
+}
